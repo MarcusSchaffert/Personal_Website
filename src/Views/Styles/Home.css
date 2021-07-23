@@ -1,0 +1,159 @@
+
+@media screen and (max-width: 600px) {
+  .home-content{
+    margin-left: 3%;
+    margin-right: 3%;
+  }
+  .interest-logos{
+    width: 70px;
+  }
+
+  .interests-title{
+    font-size: medium;
+  }
+  
+}
+
+@media screen and (min-width: 600px) {
+  .home-content{
+    margin-left: 10%;
+    margin-right: 10%;
+  }
+
+  .interest-logos{
+    width: 100px;
+  }
+  .interests-title{
+    font-size: x-large;
+  }
+  
+}
+
+
+
+@media screen and (min-width: 1000px) {
+
+  .home-content{
+    margin-left: 18%;
+    margin-right: 18%;
+  }
+
+
+  .main-blog-content-container{
+    padding: 10px;
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+
+  }
+
+  .main-blog-content-container div{
+    flex: 50%;
+
+  }
+
+
+  .blog_content{
+    width: 100%;
+    height: auto;
+    align-items: center;
+  }
+
+
+
+}
+
+
+
+/*
+.home-content{
+ margin-left: clamp(3%, 10%, 15%);
+ margin-right: clamp(3%, 10%, 15%);
+}
+*/
+.blog_content img{
+  width: 100%;
+  max-width: 1000px;
+  height: auto;
+  align-items: center;
+}
+
+
+/* When you mouse over the container, fade in the overlay title */
+.container {
+    opacity: 1;
+  }
+
+  /* The overlay effect - lays on top of the container and over the image 
+.overlay {
+    position: absolute;
+    bottom: 0;
+    background: rgb(0, 0, 0);
+    background: rgba(0, 0, 0, 0.5); // Black see-through 
+    color: #f1f1f1;
+    width: 100%;
+    transition: .5s ease;
+    opacity:0;
+    color: white;
+    font-size: 20px;
+    text-align: center;
+  }
+  */
+  /* Make the image to responsive */
+.image {
+    display: block;
+    width: 100%;
+    
+  }
+
+  @media screen and (min-width: 1000px) {
+    .container{
+      margin-left: 15%;
+      margin-right: 15%;
+
+    }
+  }
+
+  .interests-container{
+
+    margin-top: 5%;
+    display: flex;
+    width: 100%;
+    justify-content: space-between;
+    align-items: center;
+  }
+
+  .interest-container-item{
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+    align-items: center;
+
+    height: 100%;
+  }
+
+
+ 
+.interests-title{
+  
+  padding-left: 10%;
+  padding-right: 10%;
+  width: 100%;
+  font-family: Arial, Helvetica, sans-serif;
+  
+}
+
+.interest-logos:hover{
+  background-color: whitesmoke;
+  display: block;
+  border-radius: 10px;
+}
+
+.recent-posts-title{
+  padding-left: 10px;
+}
+
+
+  
+
+
